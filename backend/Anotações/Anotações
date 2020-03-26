@@ -1,0 +1,25 @@
+Métodos HTTP:
+
+    -DELETE: Deletar uma informação no back-end
+    -GET: Buscar/ Listar uma informação no back-end
+    -POST: Criar uma informação no back-end
+    -PUT: Alterar uma informação no back-end
+
+Tipos de parâmetros:
+
+    - Query: Parâmetros nomeados enviados na rota após "?" (Filtros, paginação)
+    - Route Params: Parâmetros utilizados para identificar recursos
+    - Request body: Corpo da requisição, utilizado para criar ou alterar recursos
+
+
+Tipos de banco de dados:
+    - SQL: MySQL, SQlite, PostgreSQL, Oracle, Microsoft SQL Server
+    - NoSQL: MongoDB, CouchDB, etc 
+
+
+Formas de comunicação com o banco de dados:
+    - Driver: SELECT * FROM users
+    - Query Builder: table('users').select('*').where
+
+Migrations -> uma forma de criar tabelas e manter um historico de tabelas criadas/ alteras (controle de versao do DB),
+manter um historico das tabelas;
